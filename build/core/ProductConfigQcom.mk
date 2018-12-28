@@ -70,6 +70,15 @@ ifeq ($(call is-board-platform-in-list, $(UM_4_9_FAMILY) $(UM_4_14_FAMILY) $(UM_
     TARGET_USES_DRM_PP := true
 endif
 
+# Mark GRALLOC_USAGE_PRIVATE_WFD as valid gralloc bits
+TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS ?= 0
+TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS += | (1 << 21)
+
+# Mark GRALLOC_USAGE_PRIVATE_10BIT_TP as valid gralloc bits on UM platforms that support it
+ifeq ($(call is-board-platform-in-list, $(UM_4_9_FAMILY)),true)
+    TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS += | (1 << 27)
+endif
+
 # Enable Gralloc4 on UM platforms that support it
 ifneq ($(filter $(UM_5_4_FAMILY),$(TARGET_BOARD_PLATFORM)),)
     SOONG_CONFIG_qtidisplay_gralloc4 := true
