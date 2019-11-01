@@ -1,5 +1,6 @@
 # ShapeShiftOS packages
 PRODUCT_PACKAGES += \
+    ShapeShiftThemesStub \
     Updater \
     ThemePicker
 
