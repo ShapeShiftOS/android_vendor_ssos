@@ -40,7 +40,8 @@ endif
 
 # Charger
 PRODUCT_PACKAGES += \
-    charger_res_images
+    charger_res_images \
+    product_charger_res_images
 
 # Customizations
 PRODUCT_PACKAGES += \
