@@ -8,7 +8,8 @@ PRODUCT_PACKAGES += \
     StitchImage \
     ThemePicker \
     PixelThemesStub2019 \
-    MatchmakerPrebuilt
+    MatchmakerPrebuilt \
+    WallpaperPickerGoogle
 
 # Local Updater
 ifneq ($(AB_OTA_PARTITIONS),)
