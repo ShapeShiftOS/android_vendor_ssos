@@ -98,6 +98,7 @@ PRODUCT_PACKAGES += \
     FontRoboto \
     FontKaiOverlay \
     FontSamOverlay \
+    FontSanFranciscoOverlay \
     FontVictorOverlay
 
 PRODUCT_COPY_FILES += \

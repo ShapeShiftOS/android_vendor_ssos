@@ -120,4 +120,15 @@
         <font weight="300" style="normal">ReemKufi-Regular.ttf</font>
     </family>
 
+    <family customizationType="new-named-family" name="sanfrancisco">
+      <font weight="400" style="normal">SanFrancisco-Regular.ttf</font>
+      <font weight="400" style="italic">SanFrancisco-Italic.ttf</font>
+      <font weight="500" style="normal">SanFrancisco-Medium.ttf</font>
+      <font weight="500" style="italic">SanFrancisco-MediumItalic.ttf</font>
+      <font weight="700" style="normal">SanFrancisco-Bold.ttf</font>
+      <font weight="700" style="italic">SanFrancisco-BoldItalic.ttf</font>
+    </family>
+    <alias name="sanfrancisco-medium" to="sanfrancisco" weight="500" />
+
 </fonts-modification>
+
