@@ -93,6 +93,16 @@ include vendor/ssos/config/bootanimation.mk
 # Inherit from fonts config
 $(call inherit-product, vendor/ssos/config/fonts.mk)
 
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+ifneq ($(TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK), true)
+PRODUCT_PACKAGES += \
+    FaceUnlockService
+TARGET_FACE_UNLOCK_SUPPORTED := true
+endif
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.face.moto_unlock_service=$(TARGET_FACE_UNLOCK_SUPPORTED)
+
 # Overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/ssos/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/ssos/overlay/common
