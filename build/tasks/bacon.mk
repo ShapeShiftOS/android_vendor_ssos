@@ -14,12 +14,12 @@
 # limitations under the License.
 
 # -----------------------------------------------------------------
-# Lineage OTA update package
+# SSOS OTA update package
 
-LINEAGE_TARGET_PACKAGE := $(PRODUCT_OUT)/lineage-$(LINEAGE_VERSION).zip
+SSOS_TARGET_PACKAGE := $(PRODUCT_OUT)/$(SSOS_VERSION).zip
 
 .PHONY: bacon
 bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
-	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(LINEAGE_TARGET_PACKAGE)
-	$(hide) $(MD5SUM) $(LINEAGE_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(LINEAGE_TARGET_PACKAGE).md5sum
-	@echo "Package Complete: $(LINEAGE_TARGET_PACKAGE)" >&2
+	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(SSOS_TARGET_PACKAGE)
+	$(hide) $(MD5SUM) $(SSOS_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(SSOS_TARGET_PACKAGE).md5sum
+	@echo "Package Complete: $(SSOS_TARGET_PACKAGE)" >&2
