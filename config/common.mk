@@ -1,8 +1,8 @@
 include vendor/ssos/build/core/vendor/*.mk
 
-ifneq ($(TARGET_DOES_NOT_USE_GAPPS), true)
-$(call inherit-product-if-exists, vendor/google/gapps/gapps-vendor.mk)
-endif
+$(call inherit-product, vendor/google/gms/config.mk)
+
+WITH_GMS := true
 
 ifeq ($(PRODUCT_USES_QCOM_HARDWARE), true)
 include vendor/ssos/build/core/ProductConfigQcom.mk
@@ -87,3 +87,4 @@ include vendor/ssos/config/fonts.mk
 # Overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/ssos/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/ssos/overlay/common
+
