@@ -38,5 +38,4 @@
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Чтобы разблокировать телефон, коснитесь датчика Pixel Imprint.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Снимайте блокировку экрана с помощью Pixel Imprint.</string>
 </resources>

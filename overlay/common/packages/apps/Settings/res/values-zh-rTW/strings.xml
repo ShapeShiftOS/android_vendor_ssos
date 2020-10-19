@@ -38,5 +38,4 @@
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">只要輕觸 Pixel Imprint 感應器即可將手機喚醒並解鎖。</string>
-    <string name="suggested_fingerprint_lock_settings_summary">使用 Pixel Imprint 將手機解鎖</string>
 </resources>

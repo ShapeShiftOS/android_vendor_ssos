@@ -38,5 +38,4 @@
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Утсаа сэрээх болон түгжээг нь тайлахын тулд Pixel Imprint-н мэдрэгчид хүрэхэд л хангалттай.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Утасныхаа түгжээг тайлахын тулд Pixel Imprint-г ашиглана уу</string>
 </resources>

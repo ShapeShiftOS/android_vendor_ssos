@@ -38,5 +38,4 @@ Opmerking: Je kunt je vingerafdruk niet gebruiken om dit apparaat te ontgrendele
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Raak de Pixel Imprint-sensor aan om je telefoon te activeren en te ontgrendelen.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Gebruik Pixel Imprint om je telefoon te ontgrendelen</string>
 </resources>

@@ -38,5 +38,4 @@ Nota: No puedes usar tu huella digital para desbloquear este dispositivo. Para o
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Solo tienes que tocar el sensor de Pixel Imprint para activar y desbloquear el teléfono.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Usa Pixel Imprint para desbloquear el teléfono</string>
 </resources>

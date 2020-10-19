@@ -38,5 +38,4 @@
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">‏צריך רק לגעת בחיישן של Pixel Imprint כדי להוציא את הטלפון ממצב שינה ולבטל את הנעילה שלו.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">‏יש להשתמש ב-Pixel Imprint כדי לבטל את נעילת הטלפון</string>
 </resources>

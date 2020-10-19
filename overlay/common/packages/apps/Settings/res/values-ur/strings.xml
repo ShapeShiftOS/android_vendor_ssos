@@ -38,5 +38,4 @@
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">‏اپنے فون کو جگانے اور غیر مقفل کرنے کیلئے Pixel Imprint سینسر کو ٹچ کریں۔</string>
-    <string name="suggested_fingerprint_lock_settings_summary">‏اپنا فون غیر مقفل کرنے کے لئے Pixel Imprint کا استعمال کریں</string>
 </resources>

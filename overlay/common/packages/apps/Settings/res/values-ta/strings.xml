@@ -38,5 +38,4 @@
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">உங்கள் மொபைலை எழுப்பவோ அன்லாக் செய்யவோ Pixel Imprint சென்சாரைத் தொட்டால் போதும்.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">மொபைலை அன்லாக் செய்ய Pixel Imprintடைப் பயன்படுத்தலாம்</string>
 </resources>

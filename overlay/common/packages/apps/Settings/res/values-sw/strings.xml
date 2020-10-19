@@ -38,5 +38,4 @@ Kumbuka: Huwezi kutumia alama ya kidole chako kufungua kifaa hiki. Kwa maelezo z
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Gusa tu kitambuzi cha Pixel Imprint ili uwashe na kufungua skrini ya simu yako.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Tumia Pixel Imprint kufungua simu yako</string>
 </resources>

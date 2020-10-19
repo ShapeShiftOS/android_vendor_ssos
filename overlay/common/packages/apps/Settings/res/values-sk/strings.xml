@@ -38,5 +38,4 @@ Poznámka: Toto zariadenie sa odtlačkom prsta odomknúť nedá. Ďalšie inform
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Telefón zobudíte a odomknete jednoducho tak, že sa dotknete senzora Pixel Imprint.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Odomykajte svoj telefón pomocou funkcie Pixel Imprint</string>
 </resources>

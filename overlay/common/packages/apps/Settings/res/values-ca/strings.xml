@@ -38,5 +38,4 @@ Nota: No pots fer servir l'empremta digital per desbloquejar aquest dispositiu. 
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Toca el sensor de Pixel Imprint per activar i desbloquejar el telèfon.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Fes servir Pixel Imprint per desbloquejar el telèfon</string>
 </resources>

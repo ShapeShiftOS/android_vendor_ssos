@@ -38,5 +38,4 @@
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">За да активирате и отключите телефона си, трябва само да докоснете сензора на Pixel Imprint.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Използвайте Pixel Imprint, за да отключите телефона си</string>
 </resources>

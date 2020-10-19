@@ -38,5 +38,4 @@ Napomena: Ne možete da koristite otisak prsta za otključavanje ovog uređaja. 
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Samo dodirnite Pixel Imprint senzor da biste probudili i otključali telefon.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Koristite Pixel Imprint da biste otključali telefon</string>
 </resources>

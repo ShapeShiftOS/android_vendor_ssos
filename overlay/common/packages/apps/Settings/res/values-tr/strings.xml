@@ -38,5 +38,4 @@ Not: Bu cihazın kilidini açmak için parmak izinizi kullanamazsınız. Daha fa
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Telefonunuzu uyandırmak ve kilidini açmak için Pixel Imprint sensörüne dokunmanız yeterlidir.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Telefonunuzun kilidini Pixel Imprint ile açın</string>
 </resources>

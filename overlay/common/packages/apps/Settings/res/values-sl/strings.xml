@@ -38,5 +38,4 @@ Opomba: prstnega odtisa ne morete uporabiti za odklepanje naprave. Za več infor
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Dotaknite se tipala za funkcijo Pixel Imprint, če želite preklopiti telefon iz stanja pripravljenosti in ga odkleniti.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Uporaba funkcije Pixel Imprint za odklepanje telefona</string>
 </resources>

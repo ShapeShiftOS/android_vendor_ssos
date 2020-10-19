@@ -38,5 +38,4 @@ Remarque : Vous ne pouvez pas utiliser vos empreintes digitales pour déverroui
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Il suffit de toucher le capteur Pixel Imprint pour réactiver et déverrouiller votre téléphone.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Utilisez Pixel Imprint pour déverrouiller votre téléphone</string>
 </resources>

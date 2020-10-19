@@ -38,5 +38,4 @@ Yazi: Awukwazi ukusebenzisa izigxivizo zeminwe zakho ukuze uvule le divayisi. Uk
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">I-Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">I-Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Vele uthinte inzwa ye-Pixel Imprint ukuze uvuse uphinde uvule ifoni yakho.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Sebenzisa i-Pixel Imprint ukuvula ifoni yakho</string>
 </resources>

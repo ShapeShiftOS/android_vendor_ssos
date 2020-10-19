@@ -38,5 +38,4 @@ Pastaba: naudodami kontrolinį kodą šio įrenginio atrakinti negalite. Daugiau
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Tiesiog palieskite „Pixel Imprint“ jutiklį, kad pažadintumėte ir atrakintumėte telefoną.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Naudokite „Pixel Imprint“ telefonui atrakinti</string>
 </resources>

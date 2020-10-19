@@ -38,5 +38,4 @@ Bemærk! Du kan ikke bruge dit fingeraftryk til at låse enheden op. Kontakt din
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Du skal bare trykke på Pixel Imprint-sensoren for at vække din telefon og låse den op.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Lås din telefon op ved hjælp af Pixel Imprint</string>
 </resources>

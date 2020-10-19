@@ -38,5 +38,4 @@ Märkus. Te ei saa selle seadme avamiseks sõrmejälge kasutada. Lisateabe saami
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Telefoni äratamiseks ja avamiseks puudutage lihtsalt Pixel Imprinti andurit.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Kasutage telefoni avamiseks Pixel Imprinti</string>
 </resources>

@@ -38,5 +38,4 @@ Megjegyzés: Nem használhatja ujjlenyomatát az eszköz feloldására. Ha tová
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Érintse meg Pixel Imprint érzékelőjét a telefon felébresztéséhez és feloldásához.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">A telefon feloldása a Pixel Imprint funkcióval</string>
 </resources>

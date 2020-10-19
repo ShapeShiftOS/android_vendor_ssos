@@ -38,5 +38,4 @@
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">നിങ്ങളുടെ ഫോണിനെ ഉണർത്താനും അൺലോക്ക് ചെയ്യാനും Pixel Imprint സെൻസർ തൊടുകയേ വേണ്ടൂ.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">ഫോൺ അൺലോക്ക് ചെയ്യാൻ Pixel Imprint ഉപയോഗിക്കുക</string>
 </resources>

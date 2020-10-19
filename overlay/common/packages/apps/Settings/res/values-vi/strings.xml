@@ -38,5 +38,4 @@ Lưu ý: Bạn không thể dùng vân tay của mình để mở khóa thiết 
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Bạn chỉ cần chạm vào cảm biến Pixel Imprint để đánh thức và mở khóa điện thoại.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Dùng Pixel Imprint để mở khóa điện thoại</string>
 </resources>

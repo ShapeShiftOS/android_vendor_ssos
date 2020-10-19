@@ -38,5 +38,4 @@ Catatan: Anda tidak dapat menggunakan sidik jari untuk membuka kunci perangkat. 
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Cukup sentuh sensor Pixel Imprint untuk mengaktifkan dan membuka kunci ponsel.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Gunakan Pixel Imprint untuk membuka kunci ponsel</string>
 </resources>

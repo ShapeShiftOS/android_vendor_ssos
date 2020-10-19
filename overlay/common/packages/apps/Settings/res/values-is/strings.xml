@@ -38,5 +38,4 @@ Athugaðu: Þú getur ekki notað fingrafarið til að taka lásinn af þessu t�
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Snertu skynjara Pixel Imprint til að vekja og opna símann þinn.</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Notaðu Pixel Imprint til að opna símann</string>
 </resources>
