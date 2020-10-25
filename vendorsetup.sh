@@ -1,4 +1,4 @@
-devices=('beryllium,fajita,mido,enchilada,davinci,raphael,vince,ysl,laurel_sprout,whyred' )
+devices=('beryllium,fajita,mido,violet,ginkgo,enchilada,davinci,raphael,vince,ysl,laurel_sprout,whyred' )
 
 function lunch_devices() {
     add_lunch_combo ssos_${device}-user
