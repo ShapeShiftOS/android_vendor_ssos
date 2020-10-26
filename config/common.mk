@@ -49,7 +49,8 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/ssos/prebuilt/common/etc/permissions/privapp-permissions-ssos-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-ssos-product.xml \
     vendor/ssos/prebuilt/common/etc/permissions/privapp-permissions-ssos-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-ssos-system.xml \
-    vendor/ssos/prebuilt/common/etc/permissions/privapp-permissions-elgoog.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-elgoog.xml
+    vendor/ssos/prebuilt/common/etc/permissions/privapp-permissions-elgoog.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-elgoog.xml \
+    vendor/ssos/prebuilt/common/etc/sysconfig/pixel_experience_2020.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020.xml
 
 # system mount
 PRODUCT_COPY_FILES += \
@@ -101,6 +102,9 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 endif
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.face.moto_unlock_service=$(TARGET_FACE_UNLOCK_SUPPORTED)
+
+# Inherit from sepolicy config
+$(call inherit-product, vendor/ssos/config/sepolicy.mk)
 
 # Overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/ssos/overlay
