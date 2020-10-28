@@ -12,5 +12,6 @@ ADDITIONAL_BUILD_PROPERTIES += \
     ro.mod.version=$(BUILD_ID)-$(BUILD_DATE)-$(SSOS_BASE_VERSION) \
     ro.ssos.fingerprint=$(ROM_FINGERPRINT) \
     ro.ssos.buildtype=$(SSOS_BUILD_TYPE) \
+    ro.ssos.display.version=$(DISPLAY_SSOS_SETTINGS) \
     ro.ssos.device=$(TARGET_PRODUCT) \
     ro.ssos.build_date=$(BUILD_DATE)
