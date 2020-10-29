@@ -1,5 +1,4 @@
 include vendor/ssos/build/core/vendor/*.mk
-include vendor/ssos/config/gsm.mk
 
 $(call inherit-product, vendor/google/gms/config.mk)
 
