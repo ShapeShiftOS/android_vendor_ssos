@@ -14,33 +14,3 @@
 # limitations under the License.
 #
 
-# Accents
-PRODUCT_PACKAGES += \
-    AccentColorAmberOverlay \
-    AccentColorCoralOverlay \
-    AccentColorCyanOverlay \
-    AccentColorForestOverlay \
-    AccentColorLimeOverlay \
-    AccentColorMintOverlay \
-    AccentColorOrangeOverlay \
-    AccentColorPinkOverlay \
-    AccentColorRedOverlay \
-    AccentColorYellowOverlay
-
-# Icon Theme Packages
-PRODUCT_PACKAGES += \
-    IconShapeHexagonOverlay \
-    IconShapePebbleOverlay \
-    IconShapeTaperedRectOverlay \
-    IconShapeVesselOverlay
-
-# Cutout Overlays
-ifeq ($(TARGET_HAS_NOTCH),true)
-PRODUCT_PACKAGES += \
-    NotchBarKiller \
-    NotchHideOverlay
-endif
-
-# Empty
-PRODUCT_PACKAGES += \
-    EmptyOverlay
