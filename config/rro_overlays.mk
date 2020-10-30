@@ -30,9 +30,3 @@ PRODUCT_PACKAGES += \
     AccentColorTealOverlay \
     AccentColorTorchRedOverlay
 
-# Overlays
-PRODUCT_PACKAGES += \
-    FontArbutusSourceOverlay \
-    FontArvoLatoOverlay \
-    FontGoogleSansOverlayOverlay \
-    FontRubikRubikOverlay

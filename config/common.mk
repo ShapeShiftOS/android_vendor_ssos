@@ -88,5 +88,5 @@ $(call inherit-product, vendor/ssos/config/fonts.mk)
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/ssos/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/ssos/overlay/common
 
-# Overlays
-include vendor/ssos/config/rro_overlays.mk
+# Inherit from rro_overlays config
+$(call inherit-product, vendor/ssos/config/rro_overlays.mk)
