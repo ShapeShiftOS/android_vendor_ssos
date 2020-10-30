@@ -81,9 +81,6 @@ include vendor/ssos/config/pixel2-audio_prebuilt.mk
 # Bootanimation
 include vendor/ssos/config/bootanimation.mk
 
-# Fonts
-include vendor/ssos/config/fonts.mk
-
 # Overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/ssos/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/ssos/overlay/common
