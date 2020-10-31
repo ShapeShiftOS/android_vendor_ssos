@@ -47,32 +47,6 @@
     </family>
     <alias name="zilla-slab-semi-bold" to="zilla-slab-medium" weight="600" />
 
-    <family customizationType="new-named-family" name="karla">
-      <font weight="400" style="normal">Karla-Regular.ttf</font>
-    </family>
-    <alias name="karla" to="karla" weight="400"/>
-
-    <family customizationType="new-named-family" name="fraunces">
-      <font weight="400" style="normal">Fraunces-Regular.ttf</font>
-      <font weight="600" style="normal">Fraunces-SemiBold.ttf</font>
-    </family>
-    <alias name="fraunces" to="fraunces" weight="400"/>
-    <alias name="fraunces-semi-bold" to="fraunces" weight="600"/>
-
-    <family customizationType="new-named-family" name="big-shoulders-text">
-      <font weight="700" style="normal">BigShouldersText-Bold.ttf</font>
-      <font weight="800" style="normal">BigShouldersText-ExtraBold.ttf</font>
-    </family>
-    <alias name="big-shoulders-text-bold" to="big-shoulders-text" weight="700"/>
-    <alias name="big-shoulders-text-extra-bold" to="big-shoulders-text" weight="800"/>
-
-    <family customizationType="new-named-family" name="barlow">
-      <font weight="700" style="normal">Barlow-Bold.ttf</font>
-      <font weight="500" style="normal">Barlow-Medium.ttf</font>
-    </family>
-    <alias name="barlow-bold" to="barlow" weight="700"/>
-    <alias name="barlow-medium" to="barlow" weight="500"/>
-
     <family customizationType="new-named-family" name="Slate">
         <font weight="300" style="normal">SlateForOnePlus-Book.ttf</font>
         <font weight="300" style="italic">Roboto-LightItalic.ttf</font>
@@ -84,41 +58,6 @@
     <alias name="Slate" to="Slate" weight="400"/>
     <alias name="Slate-book" to="Slate" weight="300" />
     <alias name="Slate-medium" to="Slate" weight="500" />
-
-    <!-- Btlg fontage -->
-    <family customizationType="new-named-family" name="adamcg-pro">
-        <font weight="300" style="normal">AdamCGPro-Regular.ttf</font>
-    </family>
-    <family customizationType="new-named-family" name="bignoodle-italic">
-        <font weight="300" style="normal">BigNoodleTilting-Italic.ttf</font>
-    </family>
-    <family customizationType="new-named-family" name="bignoodle-regular">
-        <font weight="300" style="normal">BigNoodleTilting-Regular.ttf</font>
-    </family>
-    <family customizationType="new-named-family" name="biko">
-        <font weight="300" style="normal">Biko-Regular.ttf</font>
-    </family>
-    <family customizationType="new-named-family" name="exo2-regular">
-        <font weight="300" style="normal">Exo2-Regular.ttf</font>
-    </family>
-    <family customizationType="new-named-family" name="exo2-semibold">
-        <font weight="300" style="normal">Exo2-SemiBold.ttf</font>
-    </family>
-    <family customizationType="new-named-family" name="ginora-sans">
-        <font weight="300" style="normal">GinoraSans-Regular.ttf</font>
-    </family>
-    <family customizationType="new-named-family" name="googlesans-sys">
-        <font weight="300" style="normal">GoogleSans-Medium.ttf</font>
-    </family>
-    <family customizationType="new-named-family" name="hanken">
-        <font weight="300" style="normal">Hanken-Light.ttf</font>
-    </family>
-    <family customizationType="new-named-family" name="mittelschrift">
-        <font weight="300" style="normal">din1451alt.ttf</font>
-    </family>
-    <family customizationType="new-named-family" name="reemkufi">
-        <font weight="300" style="normal">ReemKufi-Regular.ttf</font>
-    </family>
 
     <family customizationType="new-named-family" name="sanfrancisco">
       <font weight="400" style="normal">SanFrancisco-Regular.ttf</font>
