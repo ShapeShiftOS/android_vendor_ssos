@@ -12,8 +12,13 @@
     limitations under the License.
 -->
 <resources>
+
     <style name="Theme.DeviceDefault.QuickSettings" parent="android:Theme.DeviceDefault">
         <!-- QS panel background -->
-        <item name="android:colorBackgroundFloating">@color/notification_material_background_color</item>
+        <item name="android:colorBackgroundFloating">#FF000000</item>
+
+        <!-- volume background -->
+        <item name="android:panelColorBackground">#FF000000</item>
     </style>
+
 </resources>
