@@ -7,7 +7,8 @@ PRODUCT_PACKAGES += \
     CustomDoze \
     StitchImage \
     ThemePicker \
-    WallpaperPickerGoogle
+    WallpaperPickerGoogle \
+    MatchmakerPrebuilt
 
 # Local Updater
 ifneq ($(AB_OTA_PARTITIONS),)
