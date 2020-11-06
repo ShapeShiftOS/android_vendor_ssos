@@ -36,6 +36,7 @@ SOONG_CONFIG_NAMESPACES += ssosGlobalVars
 SOONG_CONFIG_ssosGlobalVars += \
     additional_gralloc_10_usage_bits \
     bootloader_message_offset \
+    disable_postrender_cleanup \
     has_legacy_camera_hal1 \
     ignores_ftp_pptp_conntrack_failure \
     needs_netd_direct_connect_rule \
@@ -77,6 +78,7 @@ SOONG_CONFIG_ssosQcomVars_supports_hw_fde_perf := $(TARGET_HW_DISK_ENCRYPTION_PE
 SOONG_CONFIG_ssosQcomVars_uses_pre_uplink_features_netmgrd := $(TARGET_USES_PRE_UPLINK_FEATURES_NETMGRD)
 SOONG_CONFIG_ssosQcomVars_uses_qcom_bsp_legacy := $(TARGET_USES_QCOM_BSP_LEGACY)
 SOONG_CONFIG_ssosQcomVars_uses_qti_camera_device := $(TARGET_USES_QTI_CAMERA_DEVICE)
+SOONG_CONFIG_ssosGlobalVars_disable_postrender_cleanup := $(TARGET_DISABLE_POSTRENDER_CLEANUP)
 
 # Set default values
 BOOTLOADER_MESSAGE_OFFSET ?= 0
