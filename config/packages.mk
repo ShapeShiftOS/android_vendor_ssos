@@ -8,7 +8,8 @@ PRODUCT_PACKAGES += \
     StitchImage \
     ThemePicker \
     WallpaperPickerGoogle \
-    MatchmakerPrebuilt
+    MatchmakerPrebuilt \
+    QuickAccessWallet
 
 # Local Updater
 ifneq ($(AB_OTA_PARTITIONS),)
