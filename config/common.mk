@@ -66,6 +66,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/ssos/prebuilt/common/etc/init.ssos.rc:system/etc/init/init.ssos.rc
 
+# Files
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/ssos/etc,$(TARGET_COPY_OUT_PRODUCT)/etc)
+
 # Build ID
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_DISPLAY_ID="$(BUILD_ID)-$(TARGET_BUILD_VARIANT)"
