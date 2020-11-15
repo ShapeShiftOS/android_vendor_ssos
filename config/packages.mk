@@ -54,7 +54,6 @@ PRODUCT_PACKAGES += \
 # Ssos Packages
 PRODUCT_PACKAGES += \
     ThemePicker \
-    WallpaperPickerGoogle \
     MatchmakerPrebuilt \
     QuickAccessWallet
 
@@ -64,8 +63,9 @@ PRODUCT_PACKAGES += \
     LocalUpdater
 endif
 
+# Packages
 PRODUCT_PACKAGES += \
-     SsosOverlayStub
+    ShapeShiftThemesStub
 
 # Charger images
 PRODUCT_PACKAGES += \
