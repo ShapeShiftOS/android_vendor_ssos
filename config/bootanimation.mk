@@ -12,22 +12,20 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Bootanimation
-ifeq ($(TARGET_BOOT_ANIMATION_RES),1080)
-     PRODUCT_COPY_FILES += vendor/ssos/bootanimation/bootanimation_1080.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
-     PRODUCT_COPY_FILES += vendor/ssos/bootanimation/bootanimation-dark_1080.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation-dark.zip
+#Bootanimation
+
+TARGET_BOOT_ANIMATION_RES ?= undefined
+
+ifeq ($(TARGET_BOOT_ANIMATION_RES),720)
+     PRODUCT_COPY_FILES += vendor/ssos/bootanimation/bootanimation-dark_720.zip:$(TARGET_COPY_OUT_SYSTEM)/media/bootanimation.zip
+else ifeq ($(TARGET_BOOT_ANIMATION_RES),1080)
+     PRODUCT_COPY_FILES += vendor/ssos/bootanimation/bootanimation-dark_1080.zip:$(TARGET_COPY_OUT_SYSTEM)/media/bootanimation.zip
 else ifeq ($(TARGET_BOOT_ANIMATION_RES),1440)
-     PRODUCT_COPY_FILES += vendor/ssos/bootanimation/bootanimation_1440.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
-     PRODUCT_COPY_FILES += vendor/ssos/bootanimation/bootanimation-dark_1440.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation-dark.zip
-else ifeq ($(TARGET_BOOT_ANIMATION_RES),720)
-     PRODUCT_COPY_FILES += vendor/ssos/bootanimation/bootanimation_720.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
-     PRODUCT_COPY_FILES += vendor/ssos/bootanimation/bootanimation-dark_720.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation-dark.zip
+     PRODUCT_COPY_FILES += vendor/ssos/bootanimation/bootanimation-dark_1440.zip:$(TARGET_COPY_OUT_SYSTEM)/media/bootanimation.zip
+else ifeq ($(TARGET_BOOT_ANIMATION_RES),undefined)
+     $(warning Target bootanimation res is undefined, using 1080p bootanimation )
+     PRODUCT_COPY_FILES += vendor/ssos/bootanimation/bootanimation-dark_1080.zip:$(TARGET_COPY_OUT_SYSTEM)/media/bootanimation.zip
 else
-    ifeq ($(TARGET_BOOT_ANIMATION_RES),)
-        $(warning "ShapeShiftOS: TARGET_BOOT_ANIMATION_RES is undefined, assuming 1080p")
-    else
-        $(warning "ShapeShiftOS: Current bootanimation res is not supported, forcing 1080p")
-    endif
-    PRODUCT_COPY_FILES += vendor/ssos/bootanimation/bootanimation_1080.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
-    PRODUCT_COPY_FILES += vendor/ssos/bootanimation/bootanimation-dark_1080.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation-dark.zip
+     $(warning Defined bootanimation res is wrong, using 1080p bootanimation )
+     PRODUCT_COPY_FILES += vendor/ssos/bootanimation/bootanimation-dark_1080.zip:$(TARGET_COPY_OUT_SYSTEM)/media/bootanimation.zip
 endif
