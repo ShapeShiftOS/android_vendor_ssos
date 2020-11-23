@@ -16,6 +16,7 @@
 
 # Customization overlays
 PRODUCT_PACKAGES += \
+    AccentColorCheeseOverlay \
     AccentColorDodgerBlueOverlay \
     AccentColorHadalZoneOverlay \
     AccentColorLostInForestOverlay \
