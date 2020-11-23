@@ -86,9 +86,6 @@ PRODUCT_PACKAGES += \
 # Branding
 include vendor/ssos/config/branding.mk
 
-# Sounds
-include vendor/ssos/config/pixel2-audio_prebuilt.mk
-
 # Bootanimation
 include vendor/ssos/config/bootanimation.mk
 
