@@ -40,9 +40,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 ifneq ($(AB_OTA_PARTITIONS),)
 PRODUCT_COPY_FILES += \
-    vendor/ssos/build/tools/backuptool_ab.sh:system/bin/backuptool_ab.sh \
-    vendor/ssos/build/tools/backuptool_ab.functions:system/bin/backuptool_ab.functions \
-    vendor/ssos/build/tools/backuptool_postinstall.sh:system/bin/backuptool_postinstall.sh
+    vendor/ssos/build/tools/backuptool_ab.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_ab.sh \
+    vendor/ssos/build/tools/backuptool_ab.functions:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_ab.functions \
+    vendor/ssos/build/tools/backuptool_postinstall.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_postinstall.sh
 endif
 
 # copy privapp permissions
@@ -59,11 +59,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/ssos/build/tools/backuptool.sh:install/bin/backuptool.sh \
     vendor/ssos/build/tools/backuptool.functions:install/bin/backuptool.functions \
-    vendor/ssos/build/tools/50-ssos.sh:system/addon.d/50-ssos.sh
+    vendor/ssos/build/tools/50-ssos.sh:$(TARGET_COPY_OUT_SYSTEM)/addon.d/50-ssos.sh
 
 # ssos-specific init file
 PRODUCT_COPY_FILES += \
-    vendor/ssos/prebuilt/common/etc/init.ssos.rc:system/etc/init/init.ssos.rc
+    vendor/ssos/prebuilt/common/etc/init.ssos.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.ssos.rc
 
 # Files
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/ssos/etc,$(TARGET_COPY_OUT_PRODUCT)/etc)
