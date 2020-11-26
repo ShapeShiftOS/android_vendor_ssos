@@ -20,10 +20,18 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.google.clientidbase=$(PRODUCT_GMS_CLIENTID_BASE)
 endif
 
+# Blur
 PRODUCT_PRODUCT_PROPERTIES += \
-    persist.sys.sf.disable_blurs=1 \
     ro.sf.blurs_are_expensive=1 \
     ro.surface_flinger.supports_background_blur=1
+
+ifeq ($(TARGET_USES_BLUR), true)
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.sf.disable_blurs=0
+else
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.sf.disable_blurs=1
+endif
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     keyguard.no_require_sim=true \
