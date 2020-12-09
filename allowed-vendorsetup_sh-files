@@ -1,1 +1,4 @@
+device/oneplus/sdm845-common/vendorsetup.sh
+device/xiaomi/raphael/vendorsetup.sh
+device/xiaomi/miatoll/vendorsetup.sh
 vendor/ssos/vendorsetup.sh
