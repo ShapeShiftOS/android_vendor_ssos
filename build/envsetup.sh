@@ -53,3 +53,6 @@ function repopick() {
     T=$(gettop)
     $T/vendor/ssos/build/tools/repopick.py $@
 }
+
+# Disable ABI checking
+export SKIP_ABI_CHECKS=true
