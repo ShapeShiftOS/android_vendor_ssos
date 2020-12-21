@@ -18,6 +18,15 @@
 PRODUCT_PACKAGES += \
     ArbutusSlab-Regular.ttf
 
+# google-sans family
+PRODUCT_PACKAGES += \
+    GoogleSans-BoldItalic.ttf \
+    GoogleSans-Bold.ttf \
+    GoogleSans-Italic.ttf \
+    GoogleSans-MediumItalic.ttf \
+    GoogleSans-Medium.ttf \
+    GoogleSans-Regular.ttf
+
 # Inter family
 PRODUCT_PACKAGES += \
     Inter-Black.otf \
@@ -50,6 +59,7 @@ PRODUCT_PACKAGES += \
 
 # Customization overlays
 PRODUCT_PACKAGES += \
+    FontGoogleSansOverlay \
     FontArbutusSourceOverlay \
     FontRubikRubikOverlay
 
