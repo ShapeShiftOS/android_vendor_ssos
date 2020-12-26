@@ -60,6 +60,7 @@ PRODUCT_PACKAGES += \
 # Customization overlays
 PRODUCT_PACKAGES += \
     FontGoogleSansOverlay \
+    FontGoogleSansGoogleSansOverlay \
     FontArbutusSourceOverlay \
     FontRubikRubikOverlay
 
