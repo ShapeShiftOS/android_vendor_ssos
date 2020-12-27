@@ -30,7 +30,18 @@ PRODUCT_PACKAGES += \
     Linotte-Bold.ttf \
     Linotte-Regular.ttf \
     Linotte-SemiBold.ttf
- 
+
+# manrope family
+PRODUCT_PACKAGES += \
+	Manrope-ExtraLight.otf \
+	Manrope-Light.otf \
+	Manrope-Regular.otf \
+	Manrope-Medium.otf \
+	Manrope-SemiBold.otf \
+	Manrope-Bold.otf \
+	Manrope-ExtraBold.otf
+
+
 # google-sans family
 PRODUCT_PACKAGES += \
     GoogleSans-BoldItalic.ttf \
@@ -75,6 +86,7 @@ PRODUCT_PACKAGES += \
     FontGoogleSansOverlay \
     FontSlateForOnePlusOverlay \
     LinotteFont \
+	ManropeFont \
     FontGoogleSansGoogleSansOverlay \
     FontArbutusSourceOverlay \
     FontRubikRubikOverlay

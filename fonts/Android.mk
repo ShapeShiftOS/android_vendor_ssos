@@ -37,6 +37,13 @@ font_src_files := \
     Linotte-Bold.ttf \
     Linotte-Regular.ttf \
     Linotte-SemiBold.ttf \
+    Manrope-ExtraLight.otf \
+    Manrope-Light.otf \
+    Manrope-Regular.otf \
+    Manrope-Medium.otf \
+	Manrope-SemiBold.otf \
+	Manrope-Bold.otf \
+	Manrope-ExtraBold.otf \
     SlateForOnePlus-Book.ttf \
     SlateForOnePlus-Regular.ttf \
     SlateForOnePlus-Medium.ttf \
