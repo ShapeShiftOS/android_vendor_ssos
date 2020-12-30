@@ -78,6 +78,11 @@ endif
 PRODUCT_PACKAGES += \
     ShapeShiftThemesStub
 
+ifeq ($(EXTRA_FOD_ANIMATIONS),true)
+PRODUCT_PACKAGES += \
+    FodAnimationResources
+endif
+
 # Charger images
 PRODUCT_PACKAGES += \
     charger_res_images
