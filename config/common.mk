@@ -3,7 +3,7 @@ include vendor/ssos/build/core/vendor/*.mk
 # Inherit from textclassifier config
 $(call inherit-product, vendor/ssos/config/textclassifier.mk)
 
-$(call inherit-product, vendor/gapps/gapps.mk)
+$(call inherit-product, vendor/gapps/config.mk)
 $(call inherit-product, vendor/google/sounds/config.mk)
 
 WITH_GMS := true

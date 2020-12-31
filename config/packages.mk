@@ -54,7 +54,6 @@ PRODUCT_PACKAGES += \
 # Ssos Packages
 PRODUCT_PACKAGES += \
     ThemePicker \
-    MatchmakerPrebuilt \
     QuickAccessWallet
 
 # Local Updater
