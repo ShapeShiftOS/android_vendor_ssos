@@ -33,6 +33,9 @@ $(eval include $(BUILD_PREBUILT))
 endef
 
 font_src_files := \
+    SlateForOnePlus-Book.ttf \
+    SlateForOnePlus-Regular.ttf \
+    SlateForOnePlus-Medium.ttf \
     GoogleSans-BoldItalic.ttf \
     GoogleSans-Bold.ttf \
     GoogleSans-Italic.ttf \
