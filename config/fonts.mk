@@ -24,6 +24,13 @@ PRODUCT_PACKAGES += \
     SlateForOnePlus-Regular.ttf \
     SlateForOnePlus-Medium.ttf \
 
+# linotte family
+PRODUCT_PACKAGES += \
+    Linotte-Light.ttf \
+    Linotte-Bold.ttf \
+    Linotte-Regular.ttf \
+    Linotte-SemiBold.ttf
+ 
 # google-sans family
 PRODUCT_PACKAGES += \
     GoogleSans-BoldItalic.ttf \
@@ -67,6 +74,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FontGoogleSansOverlay \
     FontSlateForOnePlusOverlay \
+    LinotteFont \
     FontGoogleSansGoogleSansOverlay \
     FontArbutusSourceOverlay \
     FontRubikRubikOverlay

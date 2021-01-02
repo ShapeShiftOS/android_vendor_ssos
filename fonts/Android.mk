@@ -33,6 +33,10 @@ $(eval include $(BUILD_PREBUILT))
 endef
 
 font_src_files := \
+    Linotte-Light.ttf \
+    Linotte-Bold.ttf \
+    Linotte-Regular.ttf \
+    Linotte-SemiBold.ttf \
     SlateForOnePlus-Book.ttf \
     SlateForOnePlus-Regular.ttf \
     SlateForOnePlus-Medium.ttf \
