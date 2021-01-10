@@ -93,6 +93,9 @@ include vendor/ssos/config/branding.mk
 # Bootanimation
 include vendor/ssos/config/bootanimation.mk
 
+# Plugins
+include packages/apps/Plugins/plugins.mk
+
 # Inherit from fonts config
 $(call inherit-product, vendor/ssos/config/fonts.mk)
 
