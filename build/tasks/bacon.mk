@@ -18,10 +18,29 @@
 
 SSOS_TARGET_PACKAGE := $(PRODUCT_OUT)/$(SSOS_VERSION).zip
 
+ifneq ($(IS_CIENV),true)
+  CL_PRP="\033[35m"
+  CL_RED="\033[31m"
+  CL_GRN="\033[32m"
+endif
+
 .PHONY: bacon
 bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
 	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(SSOS_TARGET_PACKAGE)
 	$(hide) $(MD5SUM) $(SSOS_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(SSOS_TARGET_PACKAGE).md5sum
+	@echo -e ""
+	@echo -e "${cya}Building ${bldcya}ShapeShiftOS ${txtrst}";
+	@echo -e ""
+	@echo -e ${CL_PRP}"██████  ██░ ██  ▄▄▄       ██▓███  ▓█████   ██████  ██░ ██  ██▓  █████▒▄▄▄█████▓ ▒█████    ██████   "
+	@echo -e ${CL_PRP}"▒██    ▒ ▓██░ ██▒▒████▄    ▓██░  ██▒▓█   ▀ ▒██    ▒ ▓██░ ██▒▓██▒▓██   ▒ ▓  ██▒ ▓▒▒██▒  ██▒▒██    ▒ "
+	@echo -e ${CL_PRP}"░ ▓██▄   ▒██▀▀██░▒██  ▀█▄  ▓██░ ██▓▒▒███   ░ ▓██▄   ▒██▀▀██░▒██▒▒████ ░ ▒ ▓██░ ▒░▒██░  ██▒░ ▓██▄   "
+	@echo -e ${CL_PRP}"  ▒   ██▒░▓█ ░██ ░██▄▄▄▄██ ▒██▄█▓▒ ▒▒▓█  ▄   ▒   ██▒░▓█ ░██ ░██░░▓█▒  ░ ░ ▓██▓ ░ ▒██   ██░  ▒   ██▒"
+	@echo -e ${CL_PRP}"▒██████▒▒░▓█▒░██▓ ▓█   ▓██▒▒██▒ ░  ░░▒████▒▒██████▒▒░▓█▒░██▓░██░░▒█░      ▒██▒ ░ ░ ████▓▒░▒██████▒▒"
+	@echo -e ${CL_PRP}"▒ ▒▓▒ ▒ ░ ▒ ░░▒░▒ ▒▒   ▓▒█░▒▓▒░ ░  ░░░ ▒░ ░▒ ▒▓▒ ▒ ░ ▒ ░░▒░▒░▓   ▒ ░      ▒ ░░   ░ ▒░▒░▒░ ▒ ▒▓▒ ▒ ░"
+	@echo -e ${CL_PRP}"░ ░▒  ░ ░ ▒ ░▒░ ░  ▒   ▒▒ ░░▒ ░      ░ ░  ░░ ░▒  ░ ░ ▒ ░▒░ ░ ▒ ░ ░          ░      ░ ▒ ▒░ ░ ░▒  ░ ░"
+	@echo -e ${CL_PRP}"░  ░  ░   ░  ░░ ░  ░   ▒   ░░          ░   ░  ░  ░   ░  ░░ ░ ▒ ░ ░ ░      ░      ░ ░ ░ ▒  ░  ░  ░  "
+	@echo -e ${CL_PRP}"      ░   ░  ░  ░      ░  ░            ░  ░      ░   ░  ░  ░ ░                       ░ ░        ░  " 
+	@echo -e ""
 	echo -e ${CL_BLD}${CL_RED}"===============================-Package complete-==============================="${CL_RED}
 	echo -e ${CL_BLD}${CL_GRN}"Zip: "${CL_RED} $(SSOS_TARGET_PACKAGE)${CL_RST}
 	echo -e ${CL_BLD}${CL_GRN}"MD5: "${CL_RED}" `cat $(SSOS_TARGET_PACKAGE).md5sum | awk '{print $$1}' `"${CL_RST}
