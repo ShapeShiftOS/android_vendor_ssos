@@ -33,14 +33,28 @@ PRODUCT_PACKAGES += \
 
 # manrope family
 PRODUCT_PACKAGES += \
-	Manrope-ExtraLight.otf \
-	Manrope-Light.otf \
-	Manrope-Regular.otf \
-	Manrope-Medium.otf \
-	Manrope-SemiBold.otf \
-	Manrope-Bold.otf \
-	Manrope-ExtraBold.otf
+    Manrope-ExtraLight.otf \
+    Manrope-Light.otf \
+    Manrope-Regular.otf \
+    Manrope-Medium.otf \
+    Manrope-SemiBold.otf \
+    Manrope-Bold.otf \
+    Manrope-ExtraBold.otf
 
+# oneplus-sans family
+PRODUCT_PACKAGES += \
+    OnePlusSans-Thin.ttf \
+    OnePlusSans-ThinItalic.ttf \
+    OnePlusSans-Light.ttf \
+    OnePlusSans-LightItalic.ttf \
+    OnePlusSans-Regular.ttf \
+    OnePlusSans-Italic.ttf \
+    OnePlusSans-Medium.ttf \
+    OnePlusSans-MediumItalic.ttf \
+    OnePlusSans-Black.ttf \
+    OnePlusSans-BlackItalic.ttf \
+    OnePlusSans-Bold.ttf \
+    OnePlusSans-BoldItalic.ttf
 
 # google-sans family
 PRODUCT_PACKAGES += \
@@ -86,7 +100,8 @@ PRODUCT_PACKAGES += \
     FontGoogleSansOverlay \
     FontSlateForOnePlusOverlay \
     LinotteFont \
-	ManropeFont \
+    ManropeFont \
+    FontOnePlusSansOverlay \
     FontGoogleSansGoogleSansOverlay \
     FontArbutusSourceOverlay \
     FontRubikRubikOverlay

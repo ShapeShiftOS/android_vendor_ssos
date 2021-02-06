@@ -41,9 +41,9 @@ font_src_files := \
     Manrope-Light.otf \
     Manrope-Regular.otf \
     Manrope-Medium.otf \
-	Manrope-SemiBold.otf \
-	Manrope-Bold.otf \
-	Manrope-ExtraBold.otf \
+    Manrope-SemiBold.otf \
+    Manrope-Bold.otf \
+    Manrope-ExtraBold.otf \
     SlateForOnePlus-Book.ttf \
     SlateForOnePlus-Regular.ttf \
     SlateForOnePlus-Medium.ttf \
@@ -70,7 +70,19 @@ font_src_files := \
     Inter-BoldItalic.otf \
     Inter-ExtraLightItalic.otf \
     Inter-Medium.otf \
-    Inter-SemiBoldItalic.otf
+    Inter-SemiBoldItalic.otf \
+    OnePlusSans-Thin.ttf \
+    OnePlusSans-ThinItalic.ttf \
+    OnePlusSans-Light.ttf \
+    OnePlusSans-LightItalic.ttf \
+    OnePlusSans-Regular.ttf \
+    OnePlusSans-Italic.ttf \
+    OnePlusSans-Medium.ttf \
+    OnePlusSans-MediumItalic.ttf \
+    OnePlusSans-Black.ttf \
+    OnePlusSans-BlackItalic.ttf \
+    OnePlusSans-Bold.ttf \
+    OnePlusSans-BoldItalic.ttf
 
 $(foreach f, $(font_src_files), $(call build-one-font-module, $(f)))
 
