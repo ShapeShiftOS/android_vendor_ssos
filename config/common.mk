@@ -24,6 +24,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.google.clientidbase=$(PRODUCT_GMS_CLIENTID_BASE)
 endif
 
+ifeq ($(TARGET_INCLUDE_OP_FILE_MANAGER), true)
+include vendor/opfilemanager/config.mk
+endif
+
 # Blur
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.blurs_are_expensive=1 \
