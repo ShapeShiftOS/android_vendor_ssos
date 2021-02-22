@@ -54,6 +54,7 @@ SOONG_CONFIG_ssosNvidiaVars += \
 
 SOONG_CONFIG_NAMESPACES += ssosQcomVars
 SOONG_CONFIG_ssosQcomVars += \
+    legacy_hw_disk_encryption \
     should_wait_for_qsee \
     supports_extended_compress_format \
     supports_hw_fde \
@@ -76,6 +77,7 @@ SOONG_CONFIG_ssosGlobalVars_needs_netd_direct_connect_rule := $(TARGET_NEEDS_NET
 SOONG_CONFIG_ssosGlobalVars_has_memfd_backport := $(TARGET_HAS_MEMFD_BACKPORT)
 SOONG_CONFIG_ssosGlobalVars_target_camera_needs_client_info := $(TARGET_CAMERA_NEEDS_CLIENT_INFO)
 SOONG_CONFIG_ssosNvidiaVars_uses_nv_enhancements := $(NV_ANDROID_FRAMEWORK_ENHANCEMENTS)
+SOONG_CONFIG_ssosQcomVars_legacy_hw_disk_encryption := $(TARGET_LEGACY_HW_DISK_ENCRYPTION)
 SOONG_CONFIG_ssosQcomVars_should_wait_for_qsee := $(TARGET_KEYMASTER_WAIT_FOR_QSEE)
 SOONG_CONFIG_ssosQcomVars_supports_extended_compress_format := $(AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT)
 SOONG_CONFIG_ssosQcomVars_supports_hw_fde := $(TARGET_HW_DISK_ENCRYPTION)
