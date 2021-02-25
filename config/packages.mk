@@ -68,6 +68,10 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     QuickAccessWallet
 
+# StichImage
+PRODUCT_PACKAGES += \
+    StitchImage
+
 # Local Updater
 ifneq ($(AB_OTA_PARTITIONS),)
 PRODUCT_PACKAGES += \
