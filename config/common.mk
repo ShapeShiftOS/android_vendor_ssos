@@ -41,6 +41,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.sf.disable_blurs=1
 endif
 
+# IORap app launch prefetching using Perfetto traces and madvise
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.iorapd.enable=true
+
 # Gboard
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.kb_pad_port_b=1
