@@ -99,6 +99,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FontGoogleSansOverlay \
     FontSlateForOnePlusOverlay \
+    FontSlateForOnePlusLightOverlay \
     LinotteFont \
     ManropeFont \
     FontOnePlusSansOverlay \
