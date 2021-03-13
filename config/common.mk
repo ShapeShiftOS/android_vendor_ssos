@@ -25,7 +25,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 endif
 
 ifeq ($(TARGET_INCLUDE_OP_FILE_MANAGER), true)
-include vendor/opfilemanager/config.mk
+$(call inherit-product-if-exists, vendor/opfilemanager/config.mk)
 endif
 
 # Blur
