@@ -102,6 +102,7 @@ PRODUCT_PACKAGES += \
     LinotteFont \
     ManropeFont \
     FontOnePlusSansOverlay \
+    FontOnePlusSansLightOverlay \
     FontGoogleSansGoogleSansOverlay \
     FontArbutusSourceOverlay \
     FontRubikRubikOverlay
