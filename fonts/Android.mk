@@ -82,7 +82,15 @@ font_src_files := \
     OnePlusSans-Black.ttf \
     OnePlusSans-BlackItalic.ttf \
     OnePlusSans-Bold.ttf \
-    OnePlusSans-BoldItalic.ttf
+    OnePlusSans-BoldItalic.ttf \
+    RedHatDisplay-BlackItalic.ttf \
+    RedHatDisplay-Black.ttf \
+    RedHatDisplay-BoldItalic.ttf \
+    RedHatDisplay-Bold.ttf \
+    RedHatDisplay-Italic.ttf \
+    RedHatDisplay-MediumItalic.ttf \
+    RedHatDisplay-Medium.ttf \
+    RedHatDisplay-Regular.ttf
 
 $(foreach f, $(font_src_files), $(call build-one-font-module, $(f)))
 

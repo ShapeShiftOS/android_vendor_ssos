@@ -86,6 +86,17 @@ PRODUCT_PACKAGES += \
     Inter-Medium.otf \
     Inter-SemiBoldItalic.otf
 
+# red-hat-display family
+PRODUCT_PACKAGES += \
+    RedHatDisplay-BlackItalic.ttf \
+    RedHatDisplay-Black.ttf \
+    RedHatDisplay-BoldItalic.ttf \
+    RedHatDisplay-Bold.ttf \
+    RedHatDisplay-Italic.ttf \
+    RedHatDisplay-MediumItalic.ttf \
+    RedHatDisplay-Medium.ttf \
+    RedHatDisplay-Regular.ttf
+
 # rubik family
 PRODUCT_PACKAGES += \
     Rubik-BoldItalic.ttf \
@@ -106,6 +117,7 @@ PRODUCT_PACKAGES += \
     FontOnePlusSansLightOverlay \
     FontGoogleSansGoogleSansOverlay \
     FontArbutusSourceOverlay \
+    FontRedHatDisplayOverlay \
     FontRubikRubikOverlay
 
 PRODUCT_COPY_FILES += \

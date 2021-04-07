@@ -104,5 +104,17 @@
     <alias name="op-sans-bold" to="op-sans" weight="700" />
     <alias name="op-sans-black" to="op-sans" weight="900" />
 
+    <family customizationType="new-named-family" name="red-hat-display">
+      <font weight="400" style="normal">RedHatDisplay-Regular.ttf</font>
+      <font weight="400" style="italic">RedHatDisplay-Italic.ttf</font>
+      <font weight="500" style="normal">RedHatDisplay-Medium.ttf</font>
+      <font weight="500" style="italic">RedHatDisplay-MediumItalic.ttf</font>
+      <font weight="700" style="normal">RedHatDisplay-Bold.ttf</font>
+      <font weight="700" style="italic">RedHatDisplay-BoldItalic.ttf</font>
+      <font weight="900" style="normal">RedHatDisplay-Black.ttf</font>
+      <font weight="900" style="italic">RedHatDisplay-BlackItalic.ttf</font>
+    </family>
+    <alias name="red-hat-display-medium" to="red-hat-display" weight="500" />
+
 </fonts-modification>
 
