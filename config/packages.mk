@@ -84,7 +84,8 @@ endif
 
 # Packages
 PRODUCT_PACKAGES += \
-    ShapeShiftThemesStub
+    ShapeShiftThemesStub \
+    TouchGestures
 
 ifeq ($(EXTRA_FOD_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
