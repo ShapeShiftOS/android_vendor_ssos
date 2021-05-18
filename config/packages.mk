@@ -87,6 +87,10 @@ PRODUCT_PACKAGES += \
     ShapeShiftThemesStub \
     TouchGestures
 
+# Config
+PRODUCT_PACKAGES += \
+    SimpleDeviceConfig
+
 ifeq ($(EXTRA_FOD_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
     FodAnimationResources
