@@ -55,6 +55,7 @@ SOONG_CONFIG_ssosNvidiaVars += \
 SOONG_CONFIG_NAMESPACES += ssosQcomVars
 SOONG_CONFIG_ssosQcomVars += \
     legacy_hw_disk_encryption \
+    no_camera_smooth_apis \
     supports_audio_accessory \
     supports_debug_accessory \
     should_wait_for_qsee \
@@ -91,6 +92,7 @@ SOONG_CONFIG_ssosQcomVars_uses_qcom_bsp_legacy := $(TARGET_USES_QCOM_BSP_LEGACY)
 SOONG_CONFIG_ssosQcomVars_uses_qti_camera_device := $(TARGET_USES_QTI_CAMERA_DEVICE)
 SOONG_CONFIG_ssosGlobalVars_disable_postrender_cleanup := $(TARGET_DISABLE_POSTRENDER_CLEANUP)
 SOONG_CONFIG_ssosQcomVars_needs_camera_boottime_timestamp := $(TARGET_CAMERA_BOOTTIME_TIMESTAMP)
+SOONG_CONFIG_ssosQcomVars_no_camera_smooth_apis := $(TARGET_HAS_NO_CAMERA_SMOOTH_APIS)
 
 # Set default values
 BOOTLOADER_MESSAGE_OFFSET ?= 0
