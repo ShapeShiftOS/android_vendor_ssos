@@ -100,4 +100,16 @@ endif
 PRODUCT_PACKAGES += \
     charger_res_images
 
+# Primary Themes
+PRODUCT_PACKAGES += \
+    SystemDarkGrayOverlay \
+    SystemUIDarkGrayOverlay \
+    SystemStyleOverlay \
+    SystemUIStyleOverlay \
+    SystemNightOverlay \
+    SystemUINightOverlay \
+    SystemSolarizedDarkOverlay \
+    SystemUISolarizedDarkOverlay
+
+
 -include vendor/ssos/config/overlay.mk
