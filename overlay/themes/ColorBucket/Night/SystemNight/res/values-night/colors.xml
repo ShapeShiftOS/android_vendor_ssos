@@ -23,4 +23,6 @@
 
     <color name="theme_generic_semi_transparent_color">#EA363844</color>
 
+    <color name="material_grey_800">#404050</color>
+
 </resources>

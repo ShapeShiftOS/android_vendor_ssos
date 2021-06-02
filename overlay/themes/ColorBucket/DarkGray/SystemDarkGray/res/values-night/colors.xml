@@ -19,4 +19,5 @@
 <resources>
     <color name="notification_material_background_color">#FF151618</color>
     <color name="theme_generic_semi_transparent_color">#EA151618</color>
+    <color name="material_grey_800">#202020</color>
 </resources>
