@@ -37,4 +37,7 @@
     <!-- The color of the background in the grid of the Global Actions menu -->
     <color name="global_actions_grid_background">#FF363844</color>
 
+    <!-- QS footer drag handle -->
+    <color name="ssos_qs_footer_drag_handle">#0fffffff</color>
+
 </resources>
