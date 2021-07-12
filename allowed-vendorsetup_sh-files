@@ -6,4 +6,5 @@ device/xiaomi/mido/vendorsetup.sh
 device/xiaomi/davinci/vendorsetup.sh
 device/xiaomi/sm8250-common/vendorsetup.sh
 device/oneplus/msm8998-common/vendorsetup.sh
+device/xiaomi/lavender/vendorsetup.sh
 vendor/ssos/vendorsetup.sh
