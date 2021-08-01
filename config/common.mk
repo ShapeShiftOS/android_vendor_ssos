@@ -97,6 +97,8 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/ssos/etc,$(TARGET_C
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_DISPLAY_ID="$(BUILD_ID)-$(TARGET_BUILD_VARIANT)"
 
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/ssos/config/device_framework_matrix.xml
+
 # Packages
 include vendor/ssos/config/packages.mk
 
