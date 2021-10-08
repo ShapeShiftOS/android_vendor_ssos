@@ -1,5 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
-#           (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2018-2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,5 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Rules for QCOM targets
-include $(TOPDIR)vendor/ssos/build/core/qcom_target.mk
+include vendor/ssos/build/target/product/ssos_generic_car_target.mk
+
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_x86_64.mk)
+
+PRODUCT_NAME := ssos_car_x86_64

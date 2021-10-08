@@ -1,5 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
-#           (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2019-2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,5 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Rules for QCOM targets
-include $(TOPDIR)vendor/ssos/build/core/qcom_target.mk
+$(call inherit-product, vendor/ssos/config/common_full_phone.mk)
+
+PRODUCT_COPY_FILES += \
+    device/generic/goldfish/data/etc/permissions/privapp-permissions-goldfish.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-goldfish.xml \
+
+# Allow building otatools
+TARGET_FORCE_OTA_PACKAGE := true
