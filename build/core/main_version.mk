@@ -14,6 +14,5 @@ ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.ssos.fingerprint=$(ROM_FINGERPRINT) \
     ro.ssos.buildtype=$(SSOS_BUILD_TYPE) \
     ro.ssos.display.version=$(DISPLAY_SSOS_SETTINGS) \
-    ro.ssos.device=$(TARGET_PRODUCT_SHORT) \
     ro.ssos.platform.version=$(PLATFORM_SSOS_VERSION) \
     ro.ssos.build_date=$(BUILD_DATE)
