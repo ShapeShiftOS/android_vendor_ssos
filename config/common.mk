@@ -85,11 +85,6 @@ include vendor/ssos/config/ssos_audio.mk
 # Include extra packages
 include vendor/ssos/config/packages.mk
 
-# TWRP
-ifeq ($(WITH_TWRP),true)
-include vendor/ssos/config/twrp.mk
-endif
-
 # Do not include art debug targets
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 
