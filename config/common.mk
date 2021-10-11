@@ -76,6 +76,10 @@ ifeq ($(USE_GAPPS),true)
 $(call inherit-product, vendor/gapps/gapps.mk)
 endif
 
+# Enable support of one-handed mode
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.support_one_handed_mode=true
+
 # Include AOSP audio files
 include vendor/ssos/config/aosp_audio.mk
 
