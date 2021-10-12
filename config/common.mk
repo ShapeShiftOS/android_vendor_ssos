@@ -48,6 +48,9 @@ PRODUCT_COPY_FILES += \
 # Branding
 include vendor/ssos/config/branding.mk
 
+# Bootanimation
+include vendor/ssos/config/bootanimation.mk
+
 # Copy all ShapeShiftOS-specific init rc files
 $(foreach f,$(wildcard vendor/ssos/prebuilt/common/etc/init/*.rc),\
 	$(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_SYSTEM)/etc/init/$(notdir $f)))
@@ -97,10 +100,6 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 # Disable vendor restrictions
 PRODUCT_RESTRICT_VENDOR_FILES := false
-
-# Bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/ssos/bootanimation/bootanimation.zip:$(TARGET_COPY_OUT_SYSTEM)/media/bootanimation.zip
 
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
