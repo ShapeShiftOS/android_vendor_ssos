@@ -6,10 +6,14 @@ endif
 
 # ShapeShiftOS Platform Display Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.ssos.display.version=$(SSOS_DISPLAY_VERSION) \
-    ro.ssos.build.version=$(SSOS_BUILD_VERSION) \
-    ro.ssos.build.date=$(BUILD_DATE) \
-    ro.ssos.buildtype=$(SSOS_BUILD_TYPE) \
+    ro.ssos.version=$(SSOS_BASE_VERSION)-$(SSOS_BUILD_TYPE)-$(BUILD_DATE)-$(BUILD_TIME) \
+    ro.ssos.base.version=$(SSOS_BASE_VERSION) \
+    ro.ssos.codename=$(SSOS_CODENAME) \
+    ro.ssos.build.version=$(SSOS_PLATFORM_VERSION) \
+    ro.mod.version=$(BUILD_ID)-$(BUILD_DATE)-$(SSOS_BASE_VERSION) \
     ro.ssos.fingerprint=$(ROM_FINGERPRINT) \
-    ro.ssos.version=$(SSOS_VERSION) \
-    ro.modversion=$(SSOS_VERSION)
+    ro.ssos.buildtype=$(SSOS_BUILD_TYPE) \
+    ro.ssos.display.version=$(DISPLAY_SSOS_SETTINGS) \
+    ro.ssos.device=$(TARGET_PRODUCT_SHORT) \
+    ro.ssos.platform.version=$(PLATFORM_SSOS_VERSION) \
+    ro.ssos.build_date=$(BUILD_DATE)
