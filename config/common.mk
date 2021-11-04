@@ -51,9 +51,10 @@ include vendor/ssos/config/branding.mk
 # Bootanimation
 include vendor/ssos/config/bootanimation.mk
 
-# Copy all ShapeShiftOS-specific init rc files
-$(foreach f,$(wildcard vendor/ssos/prebuilt/common/etc/init/*.rc),\
-	$(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_SYSTEM)/etc/init/$(notdir $f)))
+# Default notification/alarm sounds
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.notification_sound=Argon.ogg \
+    ro.config.alarm_alert=Hassium.ogg
 
 # Enable Android Beam on all targets
 PRODUCT_COPY_FILES += \
@@ -83,6 +84,10 @@ include vendor/ssos/config/ssos_audio.mk
 
 # Include extra packages
 include vendor/ssos/config/packages.mk
+
+# Media
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    media.recorder.show_manufacturer_and_model=true
 
 # Do not include art debug targets
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
@@ -115,4 +120,3 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/ssos/overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/ssos/overlay/common
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
--include vendor/ssos/config/partner_gms.mk

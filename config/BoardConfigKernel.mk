@@ -141,7 +141,7 @@ ifneq ($(TARGET_KERNEL_ADDITIONAL_FLAGS),)
 endif
 
 TOOLS_PATH_OVERRIDE := \
-    PATH=$(BUILD_TOP)/prebuilts/tools-sssos/$(HOST_PREBUILT_TAG)/bin:$$PATH \
+    PATH=$(BUILD_TOP)/prebuilts/tools-ssos/$(HOST_PREBUILT_TAG)/bin:$$PATH \
     LD_LIBRARY_PATH=$(BUILD_TOP)/prebuilts/tools-ssos/$(HOST_PREBUILT_TAG)/lib:$$LD_LIBRARY_PATH \
     PERL5LIB=$(BUILD_TOP)/prebuilts/tools-ssos/common/perl-base
 

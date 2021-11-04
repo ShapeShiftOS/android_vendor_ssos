@@ -1,8 +1,0 @@
-# Inherit mini common Lineage stuff
-$(call inherit-product, vendor/ssos/config/common_mini.mk)
-
-# Required packages
-PRODUCT_PACKAGES += \
-    LatinIME
-
-$(call inherit-product, vendor/ssos/config/telephony.mk)

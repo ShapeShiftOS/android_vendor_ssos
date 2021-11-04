@@ -33,3 +33,20 @@ PRODUCT_PACKAGES += \
 # rsync
 PRODUCT_PACKAGES += \
     rsync
+
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
+# SystemUI plugins
+PRODUCT_PACKAGES += \
+    QuickAccessWallet
+
+# AOSP packages
+PRODUCT_PACKAGES += \
+    ExactCalculator
+
+# Recorder
+PRODUCT_PACKAGES += \
+    Recorder
