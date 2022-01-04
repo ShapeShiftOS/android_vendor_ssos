@@ -51,11 +51,6 @@ include vendor/ssos/config/branding.mk
 # Bootanimation
 include vendor/ssos/config/bootanimation.mk
 
-# Default notification/alarm sounds
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.notification_sound=Argon.ogg \
-    ro.config.alarm_alert=Hassium.ogg
-
 # Enable Android Beam on all targets
 PRODUCT_COPY_FILES += \
     vendor/ssos/config/permissions/android.software.nfc.beam.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.software.nfc.beam.xml
@@ -107,12 +102,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.feature.show_support_link_in_deferred_setup=false \
     setupwizard.feature.day_night_mode_enabled=true \
     setupwizard.feature.portal_notification=true
-
-# Include AOSP audio files
-include vendor/ssos/config/aosp_audio.mk
-
-# Include ShapeShiftOS audio files
-include vendor/ssos/config/ssos_audio.mk
 
 # Include extra packages
 include vendor/ssos/config/packages.mk
