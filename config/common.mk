@@ -76,6 +76,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
 
+# Google Apps
+$(call inherit-product, vendor/gms/products/gms.mk)
+
 # Include AOSP audio files
 include vendor/ssos/config/aosp_audio.mk
 
