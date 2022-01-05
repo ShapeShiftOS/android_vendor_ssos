@@ -50,3 +50,7 @@ PRODUCT_PACKAGES += \
 # Recorder
 PRODUCT_PACKAGES += \
     Recorder
+
+# Config
+PRODUCT_PACKAGES += \
+    SimpleDeviceConfig
