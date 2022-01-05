@@ -98,6 +98,8 @@
         <item>org.briarproject.briar.android</item>
     </string-array>
 
+    <string name="config_systemSpeechRecognizer" translatable="false">com.google.android.tts</string>
+
     <!-- Face detection for screen auto rotation -->
     <string name="config_defaultRotationResolverService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiRotationResolverService</string>
 
