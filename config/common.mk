@@ -137,6 +137,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
 
+# Lawnicons
+$(call inherit-product-if-exists, vendor/lawnicons/overlay.mk)
+
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/ssos/overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/ssos/overlay/common
 
