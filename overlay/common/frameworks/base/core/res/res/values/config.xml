@@ -157,4 +157,7 @@
     <!-- Suppress Intent Filter Verification Service crashes -->
     <string translatable="false" name="config_appsNotReportingCrashes">com.android.statementservice,com.android.systemui</string>
 
+    <!-- Turn on dark theme by default -->
+    <integer name="config_defaultNightMode">2</integer>
+
 </resources>
