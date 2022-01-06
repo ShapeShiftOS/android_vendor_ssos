@@ -133,6 +133,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PACKAGES_DEBUG += \
     procmem
 
+# Fonts
+$(call inherit-product, vendor/ssos/config/fonts.mk)
+
 # Root
 PRODUCT_PACKAGES += \
     adb_root
