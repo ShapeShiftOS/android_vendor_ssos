@@ -44,7 +44,7 @@ PRODUCT_PACKAGES += \
     QuickAccessWallet
 
 # GrapheneOS-Camera
-TARGET_BUILD_GRAPHENEOS_CAMERA ?= false
+TARGET_BUILD_GRAPHENEOS_CAMERA ?= true
 ifeq ($(strip $(TARGET_BUILD_GRAPHENEOS_CAMERA)),true)
 PRODUCT_PACKAGES += \
     GrapheneOS-Camera
