@@ -47,7 +47,7 @@ PRODUCT_PACKAGES += \
 TARGET_BUILD_GRAPHENEOS_CAMERA ?= true
 ifeq ($(strip $(TARGET_BUILD_GRAPHENEOS_CAMERA)),true)
 PRODUCT_PACKAGES += \
-    GrapheneOS-Camera
+    Camera
 endif
 
 # AOSP packages
