@@ -43,13 +43,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     QuickAccessWallet
 
-# GrapheneOS-Camera
-TARGET_BUILD_GRAPHENEOS_CAMERA ?= true
-ifeq ($(strip $(TARGET_BUILD_GRAPHENEOS_CAMERA)),true)
-PRODUCT_PACKAGES += \
-    Camera
-endif
-
 # AOSP packages
 PRODUCT_PACKAGES += \
     ExactCalculator
