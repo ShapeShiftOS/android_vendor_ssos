@@ -717,7 +717,7 @@ function ssosrebase() {
 }
 
 function mka() {
-    m
+    m "$@"
 }
 
 function cmka() {
