@@ -23,6 +23,10 @@
         <item>com.android.location.fused</item>
     </string-array>
 
+    <string-array name="config_locationExtraPackageNames">
+        <item>com.google.android.gms.location.history</item>
+    </string-array>
+
     <bool name="config_cellBroadcastAppLinks">true</bool>
 
     <!-- Disable stock OTA components if installed -->
@@ -171,5 +175,17 @@
     <!-- Name of a font family to use as regular font. For theming purpose. -->
     <string name="config_regularFontFamily" translatable="false">google-sans-regular</string>
     <string name="config_headlineFontFeatureSettings">ss03</string>
+
+    <!-- These are system packages exempted from privacy indicator -->
+    <string-array name="config_indicatorExemptedPackageNames" translatable="false">
+        <item>com.android.bluetooth</item>
+        <item>com.android.networkstack.tethering</item>
+        <item>com.android.phone</item>
+        <item>com.android.systemui</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.google.android.settings.intelligence</item>
+        <item>com.mediatek.ims</item>
+        <item>org.pixelexperience.faceunlock</item>
+    </string-array>
 
 </resources>
