@@ -503,12 +503,8 @@ endif
 ## Install it
 
 ifeq ($(NEEDS_KERNEL_COPY),true)
-file := $(INSTALLED_KERNEL_TARGET)
-ALL_PREBUILT += $(file)
-$(file) : $(KERNEL_BIN) | $(ACP)
+$(INSTALLED_KERNEL_TARGET): $(KERNEL_BIN)
 	$(transform-prebuilt-to-target)
-
-ALL_PREBUILT += $(INSTALLED_KERNEL_TARGET)
 endif
 
 ifeq ($(RECOVERY_KERNEL_COPY),true)
