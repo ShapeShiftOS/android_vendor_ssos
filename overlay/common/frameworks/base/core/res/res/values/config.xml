@@ -179,6 +179,7 @@
     <!-- These are system packages exempted from privacy indicator -->
     <string-array name="config_indicatorExemptedPackageNames" translatable="false">
         <item>com.android.bluetooth</item>
+        <item>com.android.cellbroadcastservice</item>
         <item>com.android.networkstack.tethering</item>
         <item>com.android.phone</item>
         <item>com.android.printspooler</item>
