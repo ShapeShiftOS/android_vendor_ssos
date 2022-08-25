@@ -87,7 +87,8 @@ PRODUCT_COPY_FILES += \
 endif
 
 # Google Apps
-$(call inherit-product, vendor/gms/products/gms.mk)
+$(call inherit-product, vendor/google/gms/config.mk)
+$(call inherit-product, vendor/google/pixel/config.mk)
 
 # GMS - Gboard configuration
 PRODUCT_PRODUCT_PROPERTIES += \

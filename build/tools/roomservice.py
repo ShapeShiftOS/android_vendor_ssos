@@ -45,7 +45,7 @@ except ImportError:
 DEBUG = False
 
 custom_local_manifest = ".repo/local_manifests/ssos.xml"
-custom_default_revision =  os.getenv('ROOMSERVICE_DEFAULT_BRANCH', 'android_12')
+custom_default_revision =  os.getenv('ROOMSERVICE_DEFAULT_BRANCH', 'android_13')
 custom_dependencies = "ssos.dependencies"
 org_manifest = "ShapeShiftOS-Devices"  # leave empty if org is provided in manifest
 org_display = "ShapeShiftOS-Devices"  # needed for displaying
