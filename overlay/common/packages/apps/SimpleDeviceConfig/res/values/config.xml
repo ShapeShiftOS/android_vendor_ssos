@@ -33,6 +33,9 @@
         <!-- Enable smart actions in the clipboard overlay -->
         <item>systemui/clipboard_overlay_show_actions=true</item>
 
+        <!-- Nexus (Pixel) Launcher -->
+        <item>launcher/enable_one_search=true</item>
+
         <!--
             Keep track of more app ops for privacy dashboard display.
             From AppOpsManager.RUNTIME_AND_APPOP_PERMISSIONS_OPS:
