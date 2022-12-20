@@ -30,6 +30,9 @@
         <!-- Keep up to 7 days of permission usage history -->
         <item>privacy/discrete_history_cutoff_millis=604800000</item>
 
+        <!-- Enable smart actions in the clipboard overlay -->
+        <item>systemui/clipboard_overlay_show_actions=true</item>
+
         <!--
             Keep track of more app ops for privacy dashboard display.
             From AppOpsManager.RUNTIME_AND_APPOP_PERMISSIONS_OPS:
